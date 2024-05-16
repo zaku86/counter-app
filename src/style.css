@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+.counter-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+h1 {
+  font-size: 60px;
+}
+p {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.button-div {
+  display: flex;
+  gap: 10px;
+}
+.button-div > button {
+  border-radius: 5px;
+}
+.minus-button {
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+.reset-button {
+  background-color: gray;
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.plus-button {
+  background-color: green;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
