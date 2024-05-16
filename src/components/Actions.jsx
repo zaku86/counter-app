@@ -3,9 +3,9 @@ function Actions({ count, setCount }) {
     setCount(count + 1);
   };
   let decrease = () => {
-    setCount(count - 1);
+    let x = count - 1;
+    setCount(x);
   };
-
   let reset = () => {
     setCount(0);
   };

@@ -1,10 +1,9 @@
-import { useState } from "react";
 import Count from "./components/Count";
 import Actions from "./components/Actions";
+import { useState } from "react";
 
 function App() {
   const [count, setCount] = useState(0);
-
   return (
     <div className="main-container">
       <div className="counter-div">
